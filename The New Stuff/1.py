@@ -6,7 +6,10 @@ def is_multiple(numerator,denominator):
     if numerator % denominator == 0:
         return True
 
-def multiples(numerator):
+def denominators(numerator):
     return [denominator for denominator in range(1,numerator + 1) if numerator % denominator == 0]
-   
-print(multiples(30))
+
+def filter_divisors(denominators, divisor):
+    return [number for number in denominators if number % divisor == 0]
+    
+print(filter_divisors(denominators(90),3))
