@@ -9,5 +9,4 @@ def is_multiple(numerator,denominator):
 def sums_of_multiples(min_,max_,divisor_1,divisor_2):
     return sum([number for number in range(min_, max_) if is_multiple(number,divisor_1) or is_multiple(number,divisor_2)])
     
-if __name__ == "__main__":
-    print(sums_of_multiples(1,1000,3,5))
+print(sums_of_multiples(1,1000,3,5))
