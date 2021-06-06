@@ -43,3 +43,9 @@ def listgen(a,b,c,e):
 
 if __name__ == "__main__":
     print(listgen(192, 168, 1, 200))
+
+    #It's annoying you can't change the commit discussion after it's pushed. Tried to replace the apostrophes and spaces in my array via numeous methods.
+    #Even when I did turn them into integers, it assumed they were decimal places.
+    #The closest I got is commented out above, but that has the unfortunate effect of placing each IP on a new line, they need no spaces, line breaks, or apostrophes.
+    #I'm sure there is a way to print continuously on the next line but I was meant to be asleep hours ago. Damn you EMIL! *raises fist*.
+    #Word find and replace did the trick with my list :)
