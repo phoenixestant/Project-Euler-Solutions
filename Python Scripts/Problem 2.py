@@ -16,4 +16,4 @@ while fib(n)<4000000:
 	if fib(n) % 2 == 0:
 		sum = sum + fib(n)
 	n += 1
-print(sum)
+print(sum
